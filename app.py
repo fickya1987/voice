@@ -118,7 +118,7 @@ def main():
     input_path = os.path.dirname(os.path.abspath(__file__)) + '/input/'
     output_path = os.path.dirname(os.path.abspath(__file__)) + '/output/'
     
-    input_data = st.file_uploader('Choose a video/audio file', type=['mp4', 'mp3', 'wav'])
+    input_data = st.file_uploader('Choose your chat video which you want to transcribe now in Place2Joy!', type=['mp4', 'mp3', 'wav'])
     
     video_file_extensions = [".mp4", ".mov", ".avi", ".wmv", ".flv", ".3gp"]
     audio_file_extensions = [".wav", ".mp3", ".ogg", ".flac", ".alac"]
