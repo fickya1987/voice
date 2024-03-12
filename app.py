@@ -111,7 +111,7 @@ def save_text_to_file(file_path, text):
     file.close()
 
 def main():
-    st.title('Video/Audio to text summarization')
+    st.title('Gaman Place2Joy E-Commerce Chat Video Transcription')
     genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
     text_model = genai.GenerativeModel('gemini-pro')
     
